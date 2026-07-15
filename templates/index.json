@@ -288,7 +288,7 @@
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "collection": "bike-helmets",
+        "collection": "bike-helmet",
         "products_to_show": 4,
         "title": "Evergreens",
         "heading_size": "h2",

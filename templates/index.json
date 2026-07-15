@@ -62,7 +62,7 @@
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "collection": "all-bikes",
+        "collection": "bike-feature-collection",
         "products_to_show": 4,
         "title": "",
         "heading_size": "h2",

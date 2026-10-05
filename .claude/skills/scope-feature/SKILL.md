@@ -1,6 +1,6 @@
 ---
 name: scope-feature
-description: "Phase 1 of feature development. Takes a rough brief through a 3-round conversation: (1) Should we build this? — approach analysis, (2) Decisions & clarifications — writes questions into feature.md for user to answer, (3) Extended brief — clean spec written back into feature.md. Run before /plan-feature-implemenation."
+description: "Phase 1 of feature development. Takes a rough brief through a 3-round conversation: (1) Should we build this? — approach analysis, (2) Decisions & clarifications — writes questions into feature.md for user to answer, (3) Extended brief — clean spec written back into feature.md. Run before /plan-feature-implementation."
 user-invocable: true
 ---
 
@@ -15,7 +15,7 @@ The 3 rounds ensure we don't jump straight into building without questioning the
 ## When to Use
 
 - When a new feature folder has been created with a `feature.md`
-- Before running `/plan-feature-implemenation`
+- Before running `/plan-feature-implementation`
 - When a feature request feels vague or has unanswered questions
 
 ## Inputs
@@ -55,7 +55,7 @@ Consider the full range of approaches:
 - **Existing theme component** — does the theme already have something similar we could extend or configure?
 - **Simple customizer-only solution** — can this be done with theme settings, metafields, or existing sections without writing code?
 - **Custom section/snippet/templates** — lightweight custom Liquid + CSS, minimal JS
-- **If there is no way around a custom app or similar say so. This is not the development environment to build one, but we can still explore this approach further and briefly scope a possible app.** 
+- **If there is no way around a custom app or similar say so. This is not the development environment to build one, but we can still explore this approach further and briefly scope a possible app.**
 
 Present **2-4 approaches**, ordered by your recommendation. For each:
 
@@ -113,6 +113,7 @@ Chosen approach: [the approach picked in Round 1]
 ```
 
 The user fills in their answers by:
+
 - Checking the box of their choice (`[x]`)
 - Writing `needs client clarification` into notes if they can't decide yet
 - Adding any extra notes or context directly below a question if needed
@@ -204,7 +205,7 @@ Generated: [date]
 - Use the theme analysis to make informed suggestions, not generic ones. Reference specific components and patterns by name.
 - The user is the decision-maker. You inform the decisions with technical expertise. Don't just execute — think, recommend, flag risks.
 - If the feature is genuinely tiny and the brief is already crystal clear, say so. Not everything needs all 3 rounds — use judgment. A small CSS tweak doesn't need an approach analysis.
-- After writing the Extended Brief, suggest running `/plan-feature-implemenation` as the next step.
+- After writing the Extended Brief, suggest running `/plan-feature-implementation` as the next step.
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
